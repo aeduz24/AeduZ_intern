@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "framer": "^2.4.1",
+    "motion": "^10.17.0",
+    "tw-elements": "^2.0.0"
+  }
+}
