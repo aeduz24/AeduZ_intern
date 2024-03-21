@@ -7,9 +7,9 @@ const ContactPage = () => {
         <h3>Send us a message <img src="./assets/message.png" alt="" /></h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magni in eaque, nisi inventore qui optio exercitationem accusantium minima, porro quam cum nihil blanditiis. Culpa sapiente eligendi incidunt? In, quas.</p>
         <ul>
-            <li><img src="./assets/mail.png" alt="" />aeduz@gmail.com</li>
-            <li><img src="./assets/phone.png" alt="" />+91 123456789</li>
-            <li><img src="./assets/location.png" alt="" />magni in eaque, nisi inventore qui</li>
+            <li><img src="https://cdn-icons-png.flaticon.com/128/646/646094.png" alt="" />aeduz@gmail.com</li>
+            <li><img src="https://cdn-icons-png.flaticon.com/128/126/126341.png" alt="" />+91 123456789</li>
+            <li><img src="https://cdn-icons-png.flaticon.com/128/484/484167.png" alt="" />magni in eaque, nisi inventore qui</li>
         </ul>
       </div>
       <div className="contact-col">

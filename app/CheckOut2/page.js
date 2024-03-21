@@ -1,12 +1,12 @@
 import React from 'react'
-import CheckOut1 from './CheckOut1'
+import CheckOut2 from './CheckOut2'
 import Navbar2 from '../Navbar2/page'
 
 const page = () => {
   return (
     <div>
       <Navbar2 />
-      <CheckOut1 />
+      <CheckOut2 />
     </div>
   )
 }

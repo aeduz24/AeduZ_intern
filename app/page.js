@@ -19,7 +19,7 @@ export default function Home() {
         <Benefits />
         <Team />
         <My_Profile />
-        <CheckOut1 />
+        {/* <CheckOut1 /> */}
         {/* <ItemTeam />
         <Why_Us /> */}
     </div>
