@@ -10,7 +10,7 @@ function Hero() {
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-48">
           <motion.div animate={{y:0,opacity:1}} initial={{y:-150, opacity:0}} transition={{duration:1.5}} className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl font-bold tracking-tight text-[#37517e] sm:text-6xl">
                 <span className='text-2xl md:text-3xl'>Through</span> AeduZ
             </h1>
             <p className="mt-6 mb-12 text-2xl md:text-4xl  leading-8 text-gray-600">

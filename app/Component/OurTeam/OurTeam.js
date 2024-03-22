@@ -4,7 +4,7 @@ const OurTeam = () => {
   return (
     <div className=''>
       <div className='text-center mx-auto w-[80vw] md:w-[60vw]'>
-        <h1 className='font-semibold text-5xl'>Meet Our Team</h1>
+        <h1 className='pt-10 font-semibold text-5xl text-[#37517e]'>Meet Our Team</h1>
         <p className='md:text-base text-xs pt-6 text-[grey]'>We are to-be graduates from IIT Bombay, aspires to deliver high quality mentorship through our qualified mentors
           and committed to serve every Indian aspirant who dreaming to serve our nation and become an asset in future.
         </p>

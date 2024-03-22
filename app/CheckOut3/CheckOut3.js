@@ -14,13 +14,13 @@ const CheckOut3 = () => {
         <div>
             <div className='size-12 rounded-full bg-blue-900'> </div>
             <div className='pt-2'>
-              <h4>Step 2</h4>
+              <h4 className='font-semibold text-xl' >Step 2</h4>
             </div>
         </div>
         <div>
             <div className='size-12 rounded-full bg-blue-500'> </div>
             <div className='pt-2'>
-              <h4 className='font-semibold text-xl'>Step 3</h4>
+              <h4>Step 3</h4>
             </div>
         </div>
         <div>
@@ -42,47 +42,30 @@ const CheckOut3 = () => {
         <div className='md:h-[60vh] w-[80vw] mx-auto border-[2px] rounded-2xl'>
 
             <div>
-                <h1 className='py-6 text-center md:text-4xl text-2xl font-semibold'>Step 3: Schedule Your Call</h1>
+                <h1 className='py-6 text-center md:text-4xl text-2xl font-semibold'>Step 3: Select your Pricing Plan</h1>
             </div>
               <div className='w-[60vw] mx-auto'>
-                <h3 className='py-1 text-base md:text-xl font-semibold'>Booking Date:</h3>
-                <div className="relative mb-3" data-twe-input-wrapper-init>
-                    <input
-                      type="text"
-                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                      id="exampleFormControlInput3"
-                      placeholder="Booking Date:" />
-                    <label
-                      for="exampleFormControlInput3"
-                      className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[2.15] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[1.15rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[1.15rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
-                      >Booking Date:
-                    </label>
+                <div className='flex md:w-[80%] mx-auto h-[22vh] md:gap-10 gap-4 mb-6'>
+                  <div className='md:px-10 px-2 w-[50%] border-[1px] border-[grey] rounded-md'>
+                    <h2 className='text-center font-semibold md:text-4xl py-4'>Basic </h2>
+                    <p className='text-xs md:text-base pb-1'>INR 50</p>
+                    <p className='text-xs md:text-base pb-1'>INR <span className='text-decoration-line: line-through'>50</span> 1 for first 2 calls !</p>
+                    <p className='text-xs md:text-base'>1 call - 30 Minutes</p>
+                  </div> 
+                  <div className='md:px-10 px-2 w-[50%] border-[1px] border-[grey] rounded-md'>
+                    <h2 className='text-center font-semibold md:text-4xl py-4'>Advanced</h2>
+                    <p className='text-xs md:text-base pb-1'>INR <span className='text-decoration-line: line-through'>900</span> 225</p>
+                    <p className='text-xs md:text-base pb-1'>Feature to be mentioned</p>
+                    <p className='text-xs md:text-base'>1 call - 30 Minutes</p>
+                  </div>
                 </div>
-                <h3 className='py-1 text-base md:text-xl font-semibold'>Booking Time:</h3>
+                <h3 className='py-1 text-base md:text-xl font-semibold'>Pricing Plan:</h3>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
                     <input
                       type="text"
-                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
                       id="exampleFormControlInput3"
-                      placeholder="Booking Time:" />
-                    <label
-                      for="exampleFormControlInput3"
-                      className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[2.15] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[1.15rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[1.15rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
-                      >Booking Time:
-                    </label>
-                </div>
-                <h3 className='py-1 text-base md:text-xl font-semibold'>Alternate Booking Time:</h3>
-                <div className="relative mb-3" data-twe-input-wrapper-init>
-                    <input
-                      type="text"
-                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                      id="exampleFormControlInput3"
-                      placeholder="Alternate Booking Time:" />
-                    <label
-                      for="exampleFormControlInput3"
-                      className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[2.15] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[1.15rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[1.15rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
-                      >Alternate Booking Time:
-                    </label>
+                      placeholder="Pricing Plan:" />
                 </div>
               </div>
 
