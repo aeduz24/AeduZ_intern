@@ -4,8 +4,7 @@ import WhoAreWe from "./Home.js/WhoAreWe";
 import Items from "./Component/Items/Items";
 import Navbar from "./Navbar/page";
 import Team from "./Component/Team/Team";
-import My_Profile from "./Component/My_Profile/My_Profile";
-import CheckOut1 from "./CheckOut/CheckOut1";
+import OurTeam from "./Component/OurTeam/OurTeam";
 // import ItemTeam from "./Component/ItemTeam/ItemTeam";
 // import Why_Us from "./Component/Why_Us/Why_Us";
 
@@ -17,9 +16,8 @@ export default function Home() {
         <WhoAreWe />
         <Items />
         <Benefits />
-        <Team />
-        <My_Profile />
-        {/* <CheckOut1 /> */}
+        <OurTeam />
+        {/* <Team /> */}
         {/* <ItemTeam />
         <Why_Us /> */}
     </div>

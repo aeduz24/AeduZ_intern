@@ -8,7 +8,7 @@ const CheckOut1 = () => {
         <div>
           <div className='size-12 rounded-full bg-blue-500'>  </div>
             <div className='pt-2'>
-              <h4>Step 1</h4>
+              <h4 className='font-semibold text-xl' >Step 1</h4>
             </div>
         </div>
         <div>

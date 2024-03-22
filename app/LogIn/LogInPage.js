@@ -95,7 +95,7 @@ const LogInPage = () => {
                   <Link
                     href="RegisterNow"
                     type="submit"
-                    className="bg-black text-white text-base rounded py-2 px-4 hover:bg-[#201f1f]"
+                    className="bg-[#3B71CA] hover:bg-[#1266F1] text-white text-base rounded py-2 px-4"
                     data-twe-ripple-color="light">
                     Register Now
                   </Link>

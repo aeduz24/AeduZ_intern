@@ -2,8 +2,8 @@ import React from 'react'
 import './My_Profile.css'
 const My_Profile = () => {
   return (
-    <div class="containeer">
-    <h1 class="text-center">My Profile</h1>
+    <div className="containeer">
+    <h1 class="text-center mt-24 text-3xl font-bold">My Profile</h1>
     <div class="row">
       <div class="left-section">
         <div class="text-center">
